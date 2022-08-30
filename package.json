@@ -1,0 +1,20 @@
+{
+  "name": "Webtop",
+  "version": "1.0.0",
+  "description": "A Linux Application for webtop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux deb"
+  },
+  "repository": "https://github.com/school-os/webtop",
+  "author": "Arnon Hacohen <arnonhacohen123@gmail.com>",
+  "devDependencies": {
+    "electron": "^20.1.0",
+    "electron-builder": "^23.3.3"
+  },
+  "build": {
+    "icon": "icon.png",
+    "appId": "io.github.school-os.webtop"
+  }
+}
